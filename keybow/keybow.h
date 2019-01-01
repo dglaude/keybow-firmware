@@ -3,7 +3,7 @@
 #include "lights.h"
 #include "lua-config.h"
 
-#define NUM_KEYS 12
+#define NUM_KEYS 8
 
 pthread_mutex_t lights_mutex;
 

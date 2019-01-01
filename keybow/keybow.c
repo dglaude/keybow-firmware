@@ -106,23 +106,23 @@ int main() {
 
 #define PIN_PLAY_PHAT
 #ifdef PIN_PLAY_PHAT
-    add_key(RPI_V2_GPIO_P1_7, 0x1e, 0); -- LEFT
-    add_key(RPI_V2_GPIO_P1_15, 0x28, 1); -- UP
-    add_key(RPI_V2_GPIO_P1_11, 0x21, 2; -- RIGHT
-    add_key(RPI_V2_GPIO_P1_13, 0x22, 3; -- DOWN
-    add_key(RPI_V2_GPIO_P1_37, 0x23, 4; -- B
-    add_key(RPI_V2_GPIO_P1_35, 0x25, 5; -- A
-    add_key(RPI_V2_GPIO_P1_31, 0x26, 6; -- SELECT
-    add_key(RPI_V2_GPIO_P1_29, 0x24, 7; -- START
+    add_key(RPI_V2_GPIO_P1_07, 0x1e, 0); // LEFT
+    add_key(RPI_V2_GPIO_P1_15, 0x28, 1); // UP
+    add_key(RPI_V2_GPIO_P1_11, 0x21, 2); // RIGHT
+    add_key(RPI_V2_GPIO_P1_13, 0x22, 3); // DOWN
+    add_key(RPI_V2_GPIO_P1_37, 0x23, 4); // B
+    add_key(RPI_V2_GPIO_P1_35, 0x25, 5); // A
+    add_key(RPI_V2_GPIO_P1_31, 0x26, 6); // SELECT
+    add_key(RPI_V2_GPIO_P1_29, 0x24, 7); // START
 #else
-    add_key(RPI_V2_GPIO_P1_33, 0x1e, 0); -- LEFT
-    add_key(RPI_V2_GPIO_P1_36, 0x28, 1); -- UP
-    add_key(RPI_V2_GPIO_P1_32, 0x21, 2; -- RIGHT
-    add_key(RPI_V2_GPIO_P1_31, 0x22, 3; -- DOWN
-    add_key(RPI_V2_GPIO_P1_38, 0x23, 4; -- B
-    add_key(RPI_V2_GPIO_P1_37, 0x25, 5; -- A
-    add_key(RPI_V2_GPIO_P1_15, 0x26, 6; -- SELECT
-    add_key(RPI_V2_GPIO_P1_16, 0x24, 7; -- START
+    add_key(RPI_V2_GPIO_P1_33, 0x1e, 0); // LEFT
+    add_key(RPI_V2_GPIO_P1_36, 0x28, 1); // UP
+    add_key(RPI_V2_GPIO_P1_32, 0x21, 2); // RIGHT
+    add_key(RPI_V2_GPIO_P1_31, 0x22, 3); // DOWN
+    add_key(RPI_V2_GPIO_P1_38, 0x23, 4); // B
+    add_key(RPI_V2_GPIO_P1_37, 0x25, 5); // A
+    add_key(RPI_V2_GPIO_P1_15, 0x26, 6); // SELECT
+    add_key(RPI_V2_GPIO_P1_16, 0x24, 7); // START
 #endif
 
     if (initGPIO() != 0) {
